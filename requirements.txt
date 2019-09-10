@@ -1,0 +1,7 @@
+-i https://pypi.org/simple
+altgraph==0.16.1
+click==7.0
+macholib==1.11
+pongpy==0.1.5
+pyinstaller==3.5
+pyxel==1.2.6
