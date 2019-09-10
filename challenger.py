@@ -8,7 +8,7 @@ from pongpy.models.state import State
 PLAYER_NAME = os.environ['PLAYER_NAME']
 
 
-class PlayerTeam(Team):
+class ChallengerTeam(Team):
     @property
     def name(self) -> str:
         return PLAYER_NAME

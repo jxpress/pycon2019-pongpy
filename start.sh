@@ -6,4 +6,4 @@ fi
 echo PLAYER_NAME: $1
 
 export PYTHONPATH=$PYTHONPATH:$(pwd)
-PLAYER_NAME=$1 pongpy player:PlayerTeam enemy:EnemyTeam
+PLAYER_NAME=$1 pongpy challenger:ChallengerTeam enemy:EnemyTeam
