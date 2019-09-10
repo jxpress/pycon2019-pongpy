@@ -1,0 +1,63 @@
+{
+    "_meta": {
+        "hash": {
+            "sha256": "f7a0293c25be9183b1aef0b7f00456ca6f74a1e692f5c14a67162f8fd51fa782"
+        },
+        "pipfile-spec": 6,
+        "requires": {
+            "python_version": "3.7"
+        },
+        "sources": [
+            {
+                "name": "pypi",
+                "url": "https://pypi.org/simple",
+                "verify_ssl": true
+            }
+        ]
+    },
+    "default": {
+        "altgraph": {
+            "hashes": [
+                "sha256:d6814989f242b2b43025cba7161fc1b8fb487a62cd49c49245d6fd01c18ac997",
+                "sha256:ddf5320017147ba7b810198e0b6619bd7b5563aa034da388cea8546b877f9b0c"
+            ],
+            "version": "==0.16.1"
+        },
+        "click": {
+            "hashes": [
+                "sha256:2335065e6395b9e67ca716de5f7526736bfa6ceead690adf616d925bdc622b13",
+                "sha256:5b94b49521f6456670fdb30cd82a4eca9412788a93fa6dd6df72c94d5a8ff2d7"
+            ],
+            "version": "==7.0"
+        },
+        "macholib": {
+            "hashes": [
+                "sha256:ac02d29898cf66f27510d8f39e9112ae00590adb4a48ec57b25028d6962b1ae1",
+                "sha256:c4180ffc6f909bf8db6cd81cff4b6f601d575568f4d5dee148c830e9851eb9db"
+            ],
+            "version": "==1.11"
+        },
+        "pongpy": {
+            "hashes": [
+                "sha256:e4aedb602f71180f3f2851bb0f2f5038428afc6cc36f8839f31a50d974fd8190"
+            ],
+            "index": "pypi",
+            "version": "==0.1.5"
+        },
+        "pyinstaller": {
+            "hashes": [
+                "sha256:ee7504022d1332a3324250faf2135ea56ac71fdb6309cff8cd235de26b1d0a96"
+            ],
+            "version": "==3.5"
+        },
+        "pyxel": {
+            "hashes": [
+                "sha256:51b1c83ffa5a45fe740a3eb6a0568cf69c5460457420dc95fc2ca259c2280058",
+                "sha256:fd2bce698b7f8cc870713e6c3ef15ca145ef4a37db63872076a1ffdb4d30ab0d"
+            ],
+            "index": "pypi",
+            "version": "==1.2.6"
+        }
+    },
+    "develop": {}
+}
