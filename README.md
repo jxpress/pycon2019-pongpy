@@ -23,13 +23,19 @@ JX通信社はPyCon2019の会場でうんぬんかんぬん(ルール説明)
     - macOS/Linuxでは`pyxel` 自体のほかに、`sdl2` が必要となります
     - OSごとのインストール方法は上記公式Repositoryを参照してください
 - Pythonの依存ライブラリインストール用にPipfileとrequirements.txtを用意していますので、お手元の環境に合わせてご利用ください
-
-### ローカル環境でプレイ開始
-
 - セットアップができていれば、環境変数を以下の通り指定し `pongpy player:PlayerTeam enemy:EnemyTeam` でゲームが開始されます
     - `PYTHONPATH`: このリポジトリのルートディレクトリ
     - `PLAYER_NAME`: 画面に表示するプレーヤー(あなた)の名前
-- シェルスクリプトを動かせる環境であれば `sh play.sh <プレーヤー名>` でゲームが開始できます
+- シェルスクリプトを動かせる環境であれば環境変数を指定しなくても `sh play.sh <プレーヤー名>` でゲームが開始できます
+
+### ローカル環境でプレイ開始
+
+- `pongpy` コマンドの第一引数と第二引数にそれぞれ実装したクラスを指定することで任意の組み合わせで対戦ができます
+- `teams` 以下に参考実装がありますので、対戦相手として利用してみてください
+    - (例)
+        - `PLAYER_NAME=foo pongpy player:PlayerTeam teams.random_team:RandomTeam`
+        - `PLAYER_NAME=bar pongpy player:PlayerTeam teams.manual_team:ManualTeam`
+            - `I,K,W,S` をつかってキーボード操作ができます
 
 ### 実装方法
 
