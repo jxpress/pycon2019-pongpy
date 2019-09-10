@@ -20,7 +20,7 @@ JX通信社はPyCon2019の会場でうんぬんかんぬん(ルール説明)
 ### 環境構築
 
 - [本ゲーム](https://github.com/pistatium/pong)は[pyxel](https://github.com/kitao/pyxel)を使って実装されています
-    - `pyxel` 自体のほかに、`sdl2` が必要となります
+    - macOS/Linuxでは`pyxel` 自体のほかに、`sdl2` が必要となります
     - OSごとのインストール方法は上記公式Repositoryを参照してください
 - Pythonの依存ライブラリインストール用にPipfileとrequirements.txtを用意していますので、お手元の環境に合わせてご利用ください
 
