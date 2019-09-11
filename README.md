@@ -1,27 +1,32 @@
-# PyCon2019
+# JX Pong Challenge - PyCon JP 2019
+
+https://pycon.jp/2019/
 
 ## 概要
 
-JX通信社はPyCon2019の会場でうんぬんかんぬん(ルール説明)
+**強いアルゴリズムを組んで賞品をゲットしよう!!**
 
-[JX通信社 エンジニアブログ: 報道を自動化するエンジニアはゲーム自動化の夢を見るか](https://tech.jxpress.net/entry/2019/03/22/190724)
+- PyConJP 2019 のJX通信社ブースで、アルゴリズムを組んだコンピュータ同士の Pong 大会を実施します！  
+- Python で最強の Pong チームを目指しましょう!  
+- 上位者には賞品も用意しています.
+
 
 ## キャンペーン参加方法
 
-- PyCon2019 JX通信社ブースにてどなたでもご参加いただけます
+- PyConJP 2019 JX通信社ブースにてどなたでもご参加いただけます.
+- 参加者は右上のボタンからこのレポジトリを Fork してください.
+- Fork したレポジトリに下記の手順で Pong チームを実装してください.
+- 実装が終わったら弊社ブースにお越しください.
+    - GitHub のアカウント名でエントリーできます.
+- プログラムでなく人力での参戦も可能です。ゲームの腕に自身がある方はぜひ参戦ください。
 
-- 人力編
-    - 戦いに備えて心の準備をしておいてください
-- Pythonista編
-    - 本リポジトリをフォークして、あなたのさいつよのCOMを`challenger.py` 内の `ChallengerTeam` クラスに実装してフォーク先へプッシュしてください
-
-## 遊び方
+## チームの実装方法
 
 ### 環境構築
 
 - [本ゲーム](https://github.com/pistatium/pong)は[pyxel](https://github.com/kitao/pyxel)を使って実装されています
-    - macOS/Linuxでは`pyxel` 自体のほかに、`sdl2` が必要となります
-    - OSごとのインストール方法は上記公式Repositoryを参照してください
+    - macOS/Linux では`pyxel` 自体のほかに、`sdl2` が必要となります
+    - OS ごとのインストール方法は上記公式 Repository を参照してください
 - Pythonの依存ライブラリインストール用にPipfileとrequirements.txtを用意していますので、お手元の環境に合わせてご利用ください
 - セットアップができていれば、環境変数を以下の通り指定し `pongpy challenger:ChallengerTeam enemy:EnemyTeam` でゲームが開始されます
     - `PYTHONPATH`: このリポジトリのルートディレクトリ
@@ -56,3 +61,9 @@ JX通信社はPyCon2019の会場でうんぬんかんぬん(ルール説明)
             - 自陣の向き(右側かどうかを `bool` で表します)
     - より詳細な実装方法は[こちら](https://github.com/pistatium/pong#チームの実装方法)を参照してください
 - `pongpy` 自体はクラス名や実装するファイル名を自由にしていできますが、本キャンペーンではファイル名とクラス名は変更せず、 `challenger.py` とその中の `ChallengerTeam` を利用してください
+
+### 
+* [GitHub: pistatium/pong](https://github.com/pistatium/pong)
+
+* [JX通信社 エンジニアブログ: 報道を自動化するエンジニアはゲーム自動化の夢を見るか](https://tech.jxpress.net/entry/2019/03/22/190724)
+
