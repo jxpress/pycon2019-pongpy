@@ -39,10 +39,10 @@
         },
         "pongpy": {
             "hashes": [
-                "sha256:e4aedb602f71180f3f2851bb0f2f5038428afc6cc36f8839f31a50d974fd8190"
+                "sha256:420c34e2047aaa6b78cd72750d982d7d8721dffe5470f29c702b423b1910b7e1"
             ],
             "index": "pypi",
-            "version": "==0.1.5"
+            "version": "==0.2.1"
         },
         "pyinstaller": {
             "hashes": [
