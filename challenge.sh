@@ -11,8 +11,9 @@ export PLAYER_NAME=$1
 wget -O challenger.py https://raw.githubusercontent.com/$PLAYER_NAME/pycon2019-pongpy/master/challenger.py
 
 if [ "$?" -ne "0" ]; then
-  echo "Sorry, cannot find your challenger.py"
+  echo "challenger.pyが見つかりませんでした"
+  echo "リポジトリ構造、ファイル名を確認してください"
   exit 1
 fi
 
-pongpy challenger:ChallengerTeam jx:JxTeam
+pongpy challenger:ChallengerTeam jx:JXTeam
