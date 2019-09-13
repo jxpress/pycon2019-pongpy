@@ -36,13 +36,21 @@ def write_result(proc):
 
 def on_click_start():
     github_name = github.get()
-    proc = subprocess.run(['sh', 'challenge.sh', github_name],stdout = subprocess.PIPE, stderr = subprocess.PIPE)
+    proc = subprocess.run(
+        ['sh', 'challenge.sh', github_name],
+        stdout=subprocess.PIPE,
+        stderr=subprocess.PIPE
+    )
     output['text'] = proc.stdout.decode("utf8") + proc.stderr.decode("utf8")
     write_result(proc)
 
 
 def on_click_manual():
-    proc = subprocess.run(['pongpy', 'pongpy.teams.manual_team:ManualTeam', ENEMY_TEAM], stdout = subprocess.PIPE, stderr = subprocess.PIPE)
+    proc = subprocess.run(
+        ['pongpy', 'pongpy.teams.manual_team:ManualTeam', ENEMY_TEAM],
+        stdout=subprocess.PIPE,
+        stderr=subprocess.PIPE
+    )
     output['text'] = proc.stdout.decode("utf8") + proc.stderr.decode("utf8")
     write_result(proc)
 
@@ -55,4 +63,3 @@ tkinter.Label(form, text='Manual').grid(row=3, column=0)
 manual_btn = ttk.Button(form, text='Start', command=on_click_manual)
 manual_btn.grid(row=4, column=1, sticky=E)
 root.mainloop()
-
