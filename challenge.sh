@@ -1,12 +1,8 @@
-if [ "$1" == "" ]; then
-        echo "第一引数にGitHubアカウントを指定してください ex) `pistatium`"
-        exit 1
-fi
-
->&2 echo PLAYER_NAME: $1
+#!/bin/sh
+read -p 'Your GitHub account: ' PLAYER_NAME
 
 export PYTHONPATH=$PYTHONPATH:$(pwd)
-export PLAYER_NAME=$1
+export PLAYER_NAME=$PLAYER_NAME
 
 wget -q -O challenger.py https://raw.githubusercontent.com/$PLAYER_NAME/pycon2019-pongpy/master/challenger.py
 
@@ -16,4 +12,4 @@ if [ "$?" -ne "0" ]; then
   exit 1
 fi
 
-pongpy challenger:ChallengerTeam jx:JXTeam
+pipenv run pongpy challenger:ChallengerTeam jx:JXTeam|tee -a result.txt

@@ -1,1 +1,2 @@
-PYTHONPATH=$PYTHONPATH:$(pwd) pipenv run python launcher.py
+#!/bin/sh
+gnome-terminal -e './challenge.sh'
