@@ -37,7 +37,7 @@ def write_result(proc):
 def on_click_start():
     github_name = github.get()
     proc = subprocess.run(
-        ['sh', 'challenge.sh', github_name],
+        ['bash', 'challenge.sh', github_name],
         stdout=subprocess.PIPE,
         stderr=subprocess.PIPE
     )
