@@ -3,6 +3,8 @@ read -p 'Your GitHub account: ' PLAYER_NAME
 
 export PYTHONPATH=$PYTHONPATH:$(pwd)
 export PLAYER_NAME=$PLAYER_NAME
+export PONGPY_SOUND=1
+export PYTHONUNBUFFERED=x
 
 wget -q -O challenger.py https://raw.githubusercontent.com/$PLAYER_NAME/pycon2019-pongpy/master/challenger.py
 
@@ -12,4 +14,4 @@ if [ "$?" -ne "0" ]; then
   exit 1
 fi
 
-pipenv run pongpy challenger:ChallengerTeam jx:JXTeam|tee -a result.txt
+time pipenv run pongpy challenger:ChallengerTeam jx:JXTeam|tee -a result.txt
