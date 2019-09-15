@@ -1,4 +1,4 @@
-# JX Pong Challenge - PyCon JP 2019
+# JX通信社 ピンポンゲームチャレンジ - PyCon JP 2019
 
 ![](https://pbs.twimg.com/media/EEVLO9PU8AApFFE?format=jpg&name=large)
 https://twitter.com/jxpress_corp/status/1172426002833690624?s=20
@@ -7,11 +7,11 @@ https://twitter.com/jxpress_corp/status/1172426002833690624?s=20
 
 **強いアルゴリズムを組んで賞品をゲットしよう!!**
 
-- PyConJP 2019 のJX通信社ブースで、アルゴリズムを組んだコンピュータ同士の Pong 大会を実施します！
-- Python で最強の Pong チームを目指しましょう!
+- PyConJP 2019 のJX通信社ブースで、アルゴリズムを組んだ **コンピュータ同士** のピンポンゲーム大会を実施します！
+- Python で最強のピンポンチームを目指しましょう!
 - 上位者には賞品も用意しています.
 
-### Pong ルール概要
+### ピンポンゲームルール概要
 
 ![](https://github.com/pistatium/pong/blob/master/resources/pongpy.gif?raw=true)
 
@@ -27,7 +27,8 @@ https://twitter.com/jxpress_corp/status/1172426002833690624?s=20
 - Fork したレポジトリに下記の手順で Pong チームを実装してください.
 - 実装が終わったら弊社ブースにお越しください.
     - GitHub のアカウント名でエントリーできます.
-- プログラムでなく人力での参戦も可能です。ゲームの腕に自身がある方はぜひ参戦ください。
+- プログラムでなく人力での参戦も可能です。ゲームの腕に自身がある方はぜひ参戦ください.
+- キャンペーンの終了は PyConJP のスポンサーブース終了時間に準じます.
 
 ### ルール
 
