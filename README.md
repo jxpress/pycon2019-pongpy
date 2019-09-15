@@ -1,8 +1,7 @@
 # JX Pong Challenge - PyCon JP 2019
 
-![](https://github.com/pistatium/pong/blob/master/resources/pongpy.gif?raw=true)
-
-https://pycon.jp/2019/
+![](https://pbs.twimg.com/media/EEVLO9PU8AApFFE?format=jpg&name=large)
+https://twitter.com/jxpress_corp/status/1172426002833690624?s=20
 
 ## 概要
 
@@ -12,10 +11,14 @@ https://pycon.jp/2019/
 - Python で最強の Pong チームを目指しましょう!
 - 上位者には賞品も用意しています.
 
-### Pong ルール
+### Pong ルール概要
+
+![](https://github.com/pistatium/pong/blob/master/resources/pongpy.gif?raw=true)
+
 - 11点先取、デュースあり
+- 前衛、後衛の2体1チーム
 - チェンジコートなし
-- ゲームが長引くにつれ双方のバーが中央に寄っていきます
+- ゲームが長引くにつれ双方のチームの間隔が中央へ
 
 ## キャンペーン参加方法
 
@@ -123,4 +126,5 @@ pip3 install -r requirements.txt
 
 ### 関連
 * [JX通信社 エンジニアブログ: 報道を自動化するエンジニアはゲーム自動化の夢を見るか](https://tech.jxpress.net/entry/2019/03/22/190724)
+  * このゲームはもともと弊社の社内勉強会がきっかけで作られました.
 
