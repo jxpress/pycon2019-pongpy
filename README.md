@@ -80,7 +80,9 @@ pip3 install -r requirements.txt
 - `pongpy` コマンドでは引数にチームを指定することができます.
 - 第一引数が左側チーム、第二引数が右側チームの指定になります.
     - 第一引数のみ指定した場合、pongpy デフォルトのチームとの対戦になります.
-- `PLAYER_NAME=${GitHubのユーザー名} pongpy challenger:ChallengerTeam enemy:EnemyTeam` コマンドを実行してみてください.
+- `PLAYER_NAME=GitHubのユーザー名 pongpy challenger:ChallengerTeam enemy:EnemyTeam` コマンドを実行してみてください.
+    - ローカルに実行時はゲーム画面上に表示するためのものなので、任意の値でも構いません。
+    - (例)`PLAYER_NAME=jxpress pongpy challenger:ChallengerTeam enemy:EnemyTeam`
     - challenger.py と enemy.py で実装されたチームの対戦が始まります.
     - PLAYER_NAME 環境変数は画面に表示されるチーム名です.  
     - 実行できない場合 `export PYTHONPATH=$(pwd)` などをしてパスの確認をしてください.
